@@ -1,4 +1,4 @@
 # config.py
-DATA_FOLDER = "./sandbox/clear_data"
+DATA_FOLDER = "./data"
 REPORTS_FOLDER = "./reports"
 REQUIRED_COLUMNS = {"product", "quantity", "price"}

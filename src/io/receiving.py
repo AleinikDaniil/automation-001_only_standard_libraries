@@ -1,6 +1,9 @@
 import os
 
 def find_csv_files(folder_path):
+    if not os.path.exists(folder_path):
+        return []
+    
     items = os.listdir(folder_path)
     csv_files = []
 

@@ -15,6 +15,6 @@ def save_report(report_data, company_revenue):
 
         total_qty = 0.0
         for data in report_data.values():
-            total_qty = data["total_quantity"]
+            total_qty += data["total_quantity"]
 
         writer.writerow(["ИТОГО", total_qty, round(company_revenue, 2)])
